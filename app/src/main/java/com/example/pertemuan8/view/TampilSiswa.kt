@@ -52,3 +52,12 @@ fun TampilSiswa(
                         (id = R.color.teal_700)
                     )
             )
+        }){ isiRuang->
+        Column(
+            modifier = Modifier.padding(isiRuang),
+            verticalArrangement = Arrangement.SpaceBetween
+        ){
+            Column (
+                modifier = Modifier.padding(dimensionResource(id = R.dimen.padding_medium)),
+                verticalArrangement = Arrangement.spacedBy(dimensionResource
+                    (id = R.dimen.padding_small))
