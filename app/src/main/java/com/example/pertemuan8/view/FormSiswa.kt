@@ -31,7 +31,6 @@ import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.example.pertemuan8.R
-
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun FormSiswa(
@@ -90,7 +89,6 @@ fun FormSiswa(
 
                 }
             }
-
             HorizontalDivider(modifier = Modifier
                 .padding(all = 20.dp)
                 .width(width = 250.dp),
