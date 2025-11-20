@@ -1,4 +1,4 @@
-package com.example.pertemuan8.model // Sesuaikan dengan nama package kamu
+package com.example.pertemuan8.model
 
 data class Siswa(
     val nama: String = "",
