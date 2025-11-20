@@ -1,7 +1,7 @@
-package com.example.pertemuan8.viewmodel // Sesuaikan dengan package kamu
+package com.example.pertemuan8.viewmodel
 
 import androidx.lifecycle.ViewModel
-import com.example.pertemuan8.model.Siswa // Pastikan import ini benar
+import com.example.pertemuan8.model.Siswa
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -9,10 +9,8 @@ import kotlinx.coroutines.flow.update
 
 class SiswaViewModel : ViewModel() {
 
-    // Request: private val _statusUI = MutableStateFlow(Siswa())
     private val _statusUI = MutableStateFlow(Siswa())
 
-    // Request: val statusUI: StateFlow<Siswa> = _statusUI.asStateFlow()
     val statusUI: StateFlow<Siswa> = _statusUI.asStateFlow()
 
     fun saveDataSiswa(ls: MutableList<String>) {
